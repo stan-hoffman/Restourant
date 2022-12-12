@@ -19,10 +19,7 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-.header-logo {
-}
-.nav {
-}
+
 .nav-item {
     color: #fff;
     text-decoration: none;
@@ -47,13 +44,6 @@ body{
     position: absolute;
     top: 18px;
     right: 7px;
-}
-
-.phone {
-}
-.phone-image {
-}
-.number {
 }
 
 .num{
@@ -91,11 +81,6 @@ body{
 
 .button:hover {
     background-color: rgb(105, 75, 20);
-}
-
-
-.btn {
-    
 }
 
 .header-down {
@@ -213,6 +198,7 @@ body{
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -297,4 +283,200 @@ body{
 .history-holder {
     display: flex;
     
+}
+
+.black-block {
+    background-image: url(/images/bg.jpeg);
+    padding: 80px 0;
+    
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-title {
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 52px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+}
+
+.right-button {
+    display: flex;
+    align-items: center;
+}
+
+.right-btn {
+    background: #FF7400;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: white; 
+    transition: background-color 0.3s linear;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 52px;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px; 
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.burgers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.burgers-images {
+    margin-right: 20px;
+    
+}
+
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.menu {
+    background-image: url(/images/bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    
+}
+
+.menu-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    padding-top: 98px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 138px;
+}
+
+.menu-item {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-right: 30px;
+}
+
+.menu-text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.menu-subtext {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-button {
+    padding-top: 20px;
+}
+    
+.menu-btn {
+    background: #D67E34;
+    padding: 14px 67px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: white; 
+    transition: background-color 0.3s linear; 
+    box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.price-image {
+    position: absolute;
+    top: 137px;
+    left: 190px;
+}
+
+.menu-image {
+    position: relative;
+}
+
+.price-420 {
+    position: absolute;
+    font-family: 'Cookie', cursive;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 30px;
+    top: 172px;
+    left: 218px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    background-size: cover;
+    background-color:#E5E5E5;
+}
+
+.review-items {
+text-align: center;
+}
+
+
+.review-title {
+    padding-top: 104px;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.review-person {
+    font-weight: 600;
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+.review-name {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.review-rolls {
+    padding-bottom: 107px;
 }
