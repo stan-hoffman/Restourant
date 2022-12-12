@@ -480,3 +480,28 @@ text-align: center;
 .review-rolls {
     padding-bottom: 107px;
 }
+
+.gallery-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 101px; 
+}
+
+.gallery-title span {
+    color: #D67E34;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+.gallery-down,
+.gallery-up  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
