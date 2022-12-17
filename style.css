@@ -5,7 +5,7 @@ body{
 
 .header {
     background-image: url(./images/bg.png);
-    Width:1440px;
+    
     Height:800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,6 +64,7 @@ body{
     font-weight: 400;
     font-size: 14px;
 }
+
 
 .phone-holder {
     display: flex;
@@ -331,6 +332,10 @@ body{
     transition: background-color 0.3s linear;
 }
 
+.dishes {
+    margin-bottom: 150px;
+}
+
 .dishes-title {
     font-family: 'Tinos', serif;
     font-weight: 400;
@@ -371,7 +376,7 @@ body{
     background-image: url(/images/bar.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 152px;
     
 }
 
@@ -432,6 +437,14 @@ body{
     position: relative;
 }
 
+.menu-img{
+    height: 231px;
+    width: 240px;
+    left: 532px;
+    top: 3489px;
+    border-radius: 0px;
+
+}
 .price-420 {
     position: absolute;
     font-family: 'Cookie', cursive;
@@ -505,3 +518,71 @@ text-align: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
+.chefs-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 107px;
+}
+
+.chefs-title span {
+    color:#D67E34;
+}
+
+.chefs {
+    padding-bottom: 100px;
+}
+
+.chefs-gallery-photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.view-rest {
+    background-image: url(/images/holl.png);
+    padding: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.footer {
+    background-color: #000;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-block-logo {
+    display: flex;
+    margin-left: 155px;
+}
+
+.column-footer{
+    width: 33.3%;
+    display: block;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.footer-menu-sp {
+    display: block;
+}
+
+.menu-footer-item {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    
+}
+
+
