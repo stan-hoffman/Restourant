@@ -622,7 +622,7 @@ text-align: center;
 
 .btn-footer {
     margin-left: 150px;
-    mdisplay: block;
+    display: block;
     padding-top: 30px;
 
 }
